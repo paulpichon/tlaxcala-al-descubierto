@@ -1,0 +1,20 @@
+/*color de background*/
+div.bgColorFondo {
+    height: 100vh;
+    background-color: #EBCA9A;
+}
+/*titulo h1*/
+h1.tituloPrincipal{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/*Subtitulos h3*/
+h3.tituloSecundario{
+    color: #FFFFFF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
