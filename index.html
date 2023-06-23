@@ -9,7 +9,7 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <!--estilos propios-->
     <link rel="stylesheet" href="public/css/index.css">
   </head>
@@ -25,7 +25,7 @@
             <h3 class="tituloSecundario mt-3">Una mirada al pasado</h3>
         </div>
         <!-- Scene parallax.js -->
-        <div id="scene" class="d-flex justify-content-center mt-5">
+        <div id="scene" class="contenedorImg d-flex justify-content-center">
             <!-- imagen tlaxcallan -->
             <!-- data-depth="0.1" de parallax.js -->
             <img class="imgTlaxcallan" data-depth="0.3" src="public/img/tlaxcallan.png" alt="">
@@ -33,13 +33,16 @@
 
         <!--Menu-->
         <div class="container">
-            <ul class="menu d-flex justify-content-between">
-                <li class="opcioneMenu list-group-item">Inicio</li>
-                <li class="opcioneMenu list-group-item">Inicio</li>
-                <li class="opcioneMenu list-group-item">Inicio</li>
-                <li class="opcioneMenu list-group-item">Inicio</li>
-                <li class="opcioneMenu list-group-item">Inicio</li>
-            </ul>
+            <div class="position-absolute bottom-0 start-50 translate-middle-x">
+                <ul class="menu d-flex d-flex justify-content-around p-0">
+                    <li class="opcioneMenu list-group-item"><a class="links" href="#">Inicio</a></li>
+                    <li class="opcioneMenu list-group-item"><a class="links" href="#">Tlaxcala</a></li>
+                    <li class="opcioneMenu list-group-item"><a class="links" href="#">Señoríos</a></li>
+                    <li class="opcioneMenu list-group-item"><a class="links" href="#">Guerreros</a></li>
+                    <!--<li class="opcioneMenu list-group-item">Carnavales</li>
+                    <li class="opcioneMenu list-group-item">Haciendas</li>-->
+                </ul>
+            </div>
         </div>
         <!--Fin Menu-->
     </div>

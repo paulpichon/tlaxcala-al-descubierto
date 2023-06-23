@@ -22,12 +22,30 @@ h3.tituloSecundario{
     font-size: 2rem;
     text-transform: uppercase;
 }
+/*tamaño contenedor de la IMG*/
+div.contenedorImg{
+    height: 40vh;
+    margin-top: 90px;
+}
 /*Imagen Tlaxcallan*/
 img.imgTlaxcallan{
     /*ancho fuera de los 1400px*/
     width: 10%;
+    padding: 10px
 }
-
+/*Links*/
+a.links{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    padding: 3px;
+}
+a.links:hover {
+    box-shadow: inset 100px 0 0 0 #FFFFFF;
+    color: #EBCA9A;
+  }
 /* X-Large devices (large desktops, less than 1400px)*/
 @media (max-width: 1399.98px) {
     /*titulo h1*/
@@ -41,7 +59,7 @@ img.imgTlaxcallan{
     }
     /*imagen*/
     img.imgTlaxcallan{
-        width: 18%;
+        width: 25%;
     }
 }
 
@@ -56,10 +74,7 @@ img.imgTlaxcallan{
     h3.tituloSecundario{
         font-size: 2.5rem;
     }
-    /*imagen*/
-    img.imgTlaxcallan{
-        width: 20%;
-    }
+    
 }
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
@@ -72,10 +87,7 @@ img.imgTlaxcallan{
     h3.tituloSecundario{
         font-size: 2rem;
     }
-    /*imagen*/
-    img.imgTlaxcallan{
-        width: 25%;
-    }
+    
 }
 
 /*Small devices (landscape phones, less than 768px)*/ 
@@ -91,7 +103,7 @@ img.imgTlaxcallan{
     }
     /*imagen*/
     img.imgTlaxcallan{
-        width: 35%;
+        width: 40%;
     }
 }
 
@@ -110,6 +122,12 @@ img.imgTlaxcallan{
     }
     /*imagen*/
     img.imgTlaxcallan{
-        width: 30%;
+        width: 50%;
+        height: 70%;
     }
+    /*Menu*/
+    li.opcioneMenu{
+        margin: 20px 8px;
+    }
+    
 }
