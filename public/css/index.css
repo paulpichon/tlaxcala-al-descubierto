@@ -29,23 +29,31 @@ div.contenedorImg{
 }
 /*Imagen Tlaxcallan*/
 img.imgTlaxcallan{
-    /*ancho fuera de los 1400px*/
-    width: 10%;
     padding: 10px
+}
+/*contenedor menu*/
+div.contenedorMenu{
+    margin-bottom: 75px;
+}
+/*li menu*/
+li.opcionMenu{
+    padding: 50px 150px;
 }
 /*Links*/
 a.links{
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    padding: 3px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    padding: 5px;
 }
+/*links*/
 a.links:hover {
-    box-shadow: inset 100px 0 0 0 #FFFFFF;
+    box-shadow: inset 160px 0 0 0 #FFFFFF;
     color: #EBCA9A;
-  }
+}
 /* X-Large devices (large desktops, less than 1400px)*/
 @media (max-width: 1399.98px) {
     /*titulo h1*/
@@ -59,7 +67,19 @@ a.links:hover {
     }
     /*imagen*/
     img.imgTlaxcallan{
-        width: 25%;
+        width: 20%;
+    }
+    /*contenedor menu*/
+    div.contenedorMenu{
+        margin-bottom: 75px;
+    }
+    /*li menu*/
+    li.opcionMenu{
+        padding: 50px 80px;
+    }
+    /*Links*/
+    a.links{
+        font-size: 1.5rem;
     }
 }
 
@@ -74,6 +94,23 @@ a.links:hover {
     h3.tituloSecundario{
         font-size: 2.5rem;
     }
+    /*imagen*/
+    img.imgTlaxcallan{
+        margin-top: 50px;
+        height: 80%;
+    }
+    /*contenedor menu*/
+    div.contenedorMenu{
+        margin-bottom: 70px;
+    }
+    /*li menu*/
+    li.opcionMenu{
+        padding: 50px 70px;
+    }
+    /*Links*/
+    a.links{
+        font-size: 1.3rem;
+    }
     
 }
 /* Medium devices (tablets, less than 992px)*/
@@ -87,11 +124,25 @@ a.links:hover {
     h3.tituloSecundario{
         font-size: 2rem;
     }
+    /*imagen*/
+    img.imgTlaxcallan{
+        margin-top: 50px;
+        height: 70%;
+        width: 30%;
+    }
+    /*contenedor menu*/
+    div.contenedorMenu{
+        margin-bottom: 50px;
+    }
+    /*li menu*/
+    li.opcionMenu{
+        padding: 50px 40px;
+    }
     
 }
 
 /*Small devices (landscape phones, less than 768px)*/ 
-@media (max-width: 767.98px) { 
+@media (max-width: 768.98px) { 
     /*titulo h1*/
     h1.tituloPrincipal{
         font-size: 3rem;
@@ -103,7 +154,16 @@ a.links:hover {
     }
     /*imagen*/
     img.imgTlaxcallan{
+        height: 90%;
         width: 40%;
+    }
+    /*contenedor menu*/
+    div.contenedorMenu{
+        margin-bottom: 50px;
+    }
+    /*li menu*/
+    li.opcionMenu{
+        padding: 40px 10px;
     }
 }
 
@@ -122,12 +182,16 @@ a.links:hover {
     }
     /*imagen*/
     img.imgTlaxcallan{
+        margin-top: 12%;
         width: 50%;
         height: 70%;
     }
     /*Menu*/
-    li.opcioneMenu{
-        margin: 20px 8px;
+    li.opcionMenu{
+        padding: 20px 8px;
     }
-    
+    /*Links*/
+    a.links{
+        font-size: .9rem;
+    }
 }
