@@ -38,10 +38,11 @@ div.contenedorMenu{
 }
 /*li menu*/
 li.opcionMenu{
-    padding: 50px 150px;
+    padding: 50px 40px;;
 }
 /*Links*/
 a.links{
+    width: 100%;
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
@@ -81,6 +82,7 @@ a.links:hover {
     /*Links*/
     a.links{
         font-size: 1.5rem;
+        width: 100%;
     }
 }
 
