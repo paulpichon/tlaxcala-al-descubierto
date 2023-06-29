@@ -8,7 +8,7 @@ a.navbar-brand{
     font-family: 'Open Sans', sans-serif!important;
 }
 /* enlaces */
-a.nav-link{
+a.linkMenuPrincipal{
     color: #FFFFFF!important;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -16,7 +16,7 @@ a.nav-link{
     padding-left: 5px;
 }
 /*links*/
-a.nav-link:hover {
+a.linkMenuPrincipal:hover {
     box-shadow: inset 160px 0 0 0 #FFFFFF;
     color: #EBCA9A!important
 }
@@ -31,6 +31,17 @@ h1.tituloPrincipal {
 p.texto {
     font-family: 'Open Sans', sans-serif; 
     color: #FFFFFF; 
+}
+/* footer */
+a.linksFooter, p.desarrolladoPor {
+    font-family: 'Open Sans', sans-serif;
+    transition: color .9s ease-in-out, box-shadow .5s ease-in-out;
+    color: #EBCA9A!important;
+    font-weight: bold;
+}
+a.linksFooter:hover {
+    box-shadow: inset 160px 0 0 0 #EBCA9A;
+    color: #FFFFFF!important
 }
 
 
