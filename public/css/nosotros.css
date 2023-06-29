@@ -1,0 +1,60 @@
+/* color de background */
+.colorFondoPrincipal {
+    background-color: #EBCA9A;
+}
+/*estilos menu*/
+a.navbar-brand{
+    color: #FFFFFF!important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+/* enlaces */
+a.nav-link{
+    color: #FFFFFF!important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    padding-left: 5px;
+}
+/*links*/
+a.nav-link:hover {
+    box-shadow: inset 160px 0 0 0 #FFFFFF;
+    color: #EBCA9A!important
+}
+/* titulo principal h1 */
+h1.tituloPrincipal {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+/* Texto */
+p.texto {
+    font-family: 'Open Sans', sans-serif; 
+    color: #FFFFFF; 
+}
+
+
+/* media querys */
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* titulo principal h1 */
+    h1.tituloPrincipal {
+        font-size: 2rem;
+    }
+    /* Texto */
+    p.texto {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
