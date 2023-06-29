@@ -43,7 +43,13 @@ a.linksFooter:hover {
     box-shadow: inset 160px 0 0 0 #EBCA9A;
     color: #FFFFFF!important
 }
-
+/* link pargina personal */
+a.linkPaginaDesarrollador{
+    color: #EBCA9A!important;
+    
+    text-decoration: none!important;
+    
+}
 
 /* media querys */
 /* X-Small devices (portrait phones, less than 576px) */
