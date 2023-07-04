@@ -26,11 +26,13 @@ h1.tituloPrincipal {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #FFFFFF;
+    text-align: center;
 }
 /* Texto */
 p.texto {
     font-family: 'Open Sans', sans-serif; 
     color: #FFFFFF; 
+    margin-bottom: 2rem;
 }
 /* footer */
 a.linksFooter, p.desarrolladoPor {
@@ -46,17 +48,15 @@ a.linksFooter:hover {
 /* link pargina personal */
 a.linkPaginaDesarrollador{
     color: #EBCA9A!important;
-    
-    text-decoration: none!important;
-    
+    text-decoration: none!important;   
 }
 
 /* media querys */
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (min-width: 576px) { 
     /* titulo principal h1 */
     h1.tituloPrincipal {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     /* Texto */
     p.texto {
@@ -65,13 +65,79 @@ a.linkPaginaDesarrollador{
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+@media (min-width: 768px) { 
+    /* titulo principal h1 */
+    h1.tituloPrincipal {
+        text-align: center;
+    }
+    /* Texto */
+    p.texto {
+        margin-bottom: 25px;
+    }
+
+}
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {  }
+@media (min-width: 992px) { 
+    /*estilos menu*/
+    a.navbar-brand{
+        font-size: 1.5rem;
+    }
+    /* enlaces */
+    a.linkMenuPrincipal{
+        font-size: 1.2rem;
+    }
+    /*titulo principal*/
+    h1.tituloPrincipal{
+        margin-top: 3rem;
+    }
+    /*tamaño imagen*/
+    img.imgSection2 {
+        padding: 50px 0;
+    }
+    /*texto*/
+    p.texto{
+        margin-top: 0!important;
+    }
+    /* footer */
+    a.linksFooter, p.desarrolladoPor, a.linkPaginaDesarrollador {
+        font-size: 1.2rem;
+    }
+}
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
+@media (min-width: 1200px) { 
+    /*estilos menu*/
+    a.navbar-brand{
+        font-size: 1.8rem;
+    }
+    /* enlaces */
+    a.linkMenuPrincipal{
+        font-size: 1.4rem;
+    }
+    /*tamaño imagen*/
+    img.imgSection2 {
+        padding: 100px 0;
+    }
+    /* footer */
+    a.linksFooter, p.desarrolladoPor, a.linkPaginaDesarrollador {
+        font-size: 1.4rem;
+    }
+ }
 
 /* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {  }
+@media (min-width: 1400px) { 
+    /*estilos menu*/
+    a.navbar-brand{
+        font-size: 2rem;
+    }
+    /*titulo principal*/
+    h1.tituloPrincipal{
+        font-size: 3.2rem;
+    }
+    /*texto*/
+    p.texto{
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+}
