@@ -63,10 +63,7 @@ a.links:hover {
         font-size: 5rem;
         letter-spacing: 10px;
     }
-    /*Subtitulos h3*/
-    h3.tituloSecundario{
-        font-size: 3rem;
-    }
+   
     /*imagen*/
     img.imgTlaxcallan{
         width: 20%;
@@ -95,7 +92,7 @@ a.links:hover {
     }
     /*Subtitulos h3*/
     h3.tituloSecundario{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     /*imagen*/
     img.imgTlaxcallan{
@@ -125,7 +122,7 @@ a.links:hover {
     }
     /*Subtitulos h3*/
     h3.tituloSecundario{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     /*imagen*/
     img.imgTlaxcallan{
@@ -153,7 +150,7 @@ a.links:hover {
     }
     /*Subtitulos h3*/
     h3.tituloSecundario{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     /*imagen*/
     img.imgTlaxcallan{
