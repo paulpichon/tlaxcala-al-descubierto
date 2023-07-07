@@ -28,11 +28,19 @@ h1.tituloPrincipal {
     color: #FFFFFF;
     text-align: center;
 }
+/*subtitulo h3*/
+h3.subtituloh3 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+    font-size: 2rem;
+}
 /* Texto */
 p.texto {
     font-family: 'Open Sans', sans-serif; 
     color: #FFFFFF; 
     margin-bottom: 2rem;
+    text-align: center;
 }
 /* footer */
 a.linksFooter, p.desarrolladoPor {
