@@ -39,8 +39,8 @@ h3.subtituloh3 {
 p.texto {
     font-family: 'Open Sans', sans-serif; 
     color: #FFFFFF; 
-    margin-bottom: 2rem;
     text-align: center;
+    font-size: 1.2rem;
 }
 /* footer */
 a.linksFooter, p.desarrolladoPor {
@@ -58,6 +58,13 @@ a.linkPaginaDesarrollador{
     color: #EBCA9A!important;
     text-decoration: none!important;   
 }
+/*quitar el color al list group*/
+.list-group-item {
+    background-color: transparent !important;
+    color: #FFFFFF !important;
+    font-family: 'Open Sans', sans-serif !important; 
+    font-size: 1.2rem;
+}
 
 /* media querys */
 /* X-Small devices (portrait phones, less than 576px) */
@@ -66,10 +73,6 @@ a.linkPaginaDesarrollador{
     h1.tituloPrincipal {
         font-size: 2.5rem;
     }
-    /* Texto */
-    p.texto {
-        font-size: 1.2rem;
-    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -77,10 +80,6 @@ a.linkPaginaDesarrollador{
     /* titulo principal h1 */
     h1.tituloPrincipal {
         text-align: center;
-    }
-    /* Texto */
-    p.texto {
-        margin-bottom: 25px;
     }
 
 }
@@ -145,7 +144,6 @@ a.linkPaginaDesarrollador{
     }
     /*texto*/
     p.texto{
-        font-size: 1.4rem;
         line-height: 1.5;
     }
 }
