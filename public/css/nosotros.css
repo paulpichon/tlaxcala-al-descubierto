@@ -8,7 +8,7 @@ a.navbar-brand{
     font-family: 'Open Sans', sans-serif!important;
 }
 /* enlaces */
-a.linkMenuPrincipal{
+/* a.linkMenuPrincipal{
     color: #FFFFFF!important;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -16,10 +16,25 @@ a.linkMenuPrincipal{
     padding-left: 5px;
 }
 /*links*/
-a.linkMenuPrincipal:hover {
+/* a.linkMenuPrincipal:hover {
     box-shadow: inset 160px 0 0 0 #FFFFFF;
     color: #EBCA9A!important
-}
+}  */
+a.linkMenuPrincipal{
+    color: #FFFFFF!important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+    padding: 4px;
+    background-color: transparent;
+    transition: background-color .5s ease-in;
+    
+} 
+a.linkMenuPrincipal:hover{
+    background-color: rgba(255, 255, 255, .8);
+    color: #EBCA9A!important;
+} 
+
 /* titulo principal h1 */
 h1.tituloPrincipal {
     font-family: 'Roboto', sans-serif;
@@ -43,16 +58,21 @@ p.texto {
     font-size: 1.2rem;
 }
 /* footer */
-a.linksFooter, p.desarrolladoPor {
-    font-family: 'Open Sans', sans-serif;
-    transition: color .9s ease-in-out, box-shadow .5s ease-in-out;
+a.linksFooter, p.desarrolladoPor{
     color: #EBCA9A!important;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-}
-a.linksFooter:hover {
-    box-shadow: inset 160px 0 0 0 #EBCA9A;
-    color: #FFFFFF!important
-}
+    
+    padding: 4px;
+    background-color: transparent;
+    transition: background-color .5s ease-in;
+    
+} 
+/* HOVER LINK FOOTER */
+a.linksFooter:hover{
+    background-color: rgba(235, 202, 154, .8);
+    color: #FFFFFF!important;
+} 
 /* link pargina personal */
 a.linkPaginaDesarrollador{
     color: #EBCA9A!important;
