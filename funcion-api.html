@@ -1,28 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tlaxcala - Tlaxcala al descubierto - Una mirada al pasado</title>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <!--estilos propios-->
-    <link rel="stylesheet" href="public/css/nosotros.css">
-  </head>
-  <body>
-    
-    
-    
 
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <!--Libreria Parallax.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <!-- App.js -->
-    <!-- <script src="app.js" type="module"></script> -->
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>¿Cómo funciona la API? - Tlaxcala al descubierto - Una mirada al pasado</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,300&display=swap"
+    rel="stylesheet" />
+  <!--estilos propios-->
+  <link rel="stylesheet" href="public/css/nosotros.css" />
+</head>
+
+<body>
+  <!-- seccion 1 -->
+  <main class="colorFondoPrincipal contenedorSeccion">
+    <!-- container -->
+    <div class="container">
+      <!-- header/menu -->
+      <header>
+        <!-- menu bootstrap -->
+        <nav class="navbar navbar-expand-lg pt-4">
+          <div class="container">
+            <a class="navbar-brand" href="/">Función de la API</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" aria-current="page" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="/funcion-api.html">¿Cómo funciona?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="#">Señoríos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="#">Guerreros</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- menu bootstrap -->
+      </header>
+
+      <!---->
+      <div class="contenedorInfoFuncionApi mt-5 pb-5">
+          <p class="parrafo">Si estaba usando la versión 1 de esta API, cambie a la versión 2 (esta página). Leer más…
+            Consejo rápido: use la función "buscar en la página" de su navegador para buscar tipos de recursos específicos.</p>
+      </div>
+
+    </div>
+    <!-- fin container -->
+  </main>
+  <!-- fin seccion 1 -->
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a href="funcion-api.html" class="nav-link px-2 text-muted linksFooter">¿Cómo funciona?</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Señoríos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Guerreros</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted desarrolladoPor">
+        © 2023 Tlaxcala Al Descubierto -
+        <a class="linkPaginaDesarrollador" href="https://paulpichon.github.io/" target="_blank"
+          rel="noopener noreferrer">pichon.space</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!--Libreria Parallax.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- App.js -->
+  <script src="app.js" type="module"></script>
+</body>
+
 </html>
