@@ -7,6 +7,7 @@ a.navbar-brand{
     color: #FFFFFF!important;
     font-family: 'Open Sans', sans-serif!important;
 }
+
 a.linkMenuPrincipal{
     color: #FFFFFF!important;
     font-family: 'Open Sans', sans-serif;
@@ -21,28 +22,32 @@ a.linkMenuPrincipal:hover{
     background-color: rgba(255, 255, 255, .8);
     color: #EBCA9A!important;
 } 
-
-/* titulo principal h1 */
-h1.tituloPrincipal {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #FFFFFF;
-    text-align: center;
-}
-/*subtitulo h3*/
-h3.subtituloh3 {
+/*h3 subtitulos*/
+h3.subtitulo {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     margin: 20px 0;
     font-size: 2rem;
+    text-align: center;
+    margin-top: 30px!important;
 }
-/* Texto */
-p.texto {
+/*Texto parrafos*/
+p.texto {   
     font-family: 'Open Sans', sans-serif; 
     color: #FFFFFF; 
-    text-align: center;
     font-size: 1.2rem;
+    margin-top: 10px;
+}
+/*listas*/
+ul.ulPoliticaUso {
+    padding: 0;
+}
+li.listas {
+    font-family: 'Open Sans', sans-serif; 
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    list-style: none;
 }
 /* footer */
 a.linksFooter, p.desarrolladoPor{
@@ -65,13 +70,7 @@ a.linkPaginaDesarrollador{
     color: #EBCA9A!important;
     text-decoration: none!important;   
 }
-/*quitar el color al list group*/
-.list-group-item {
-    background-color: transparent !important;
-    color: #FFFFFF !important;
-    font-family: 'Open Sans', sans-serif !important; 
-    font-size: 1.2rem;
-}
+
 
 /* media querys */
 /* X-Small devices (portrait phones, less than 576px) */
@@ -105,14 +104,6 @@ a.linkPaginaDesarrollador{
     h1.tituloPrincipal{
         margin-top: 3rem;
     }
-    /*tamaño imagen*/
-    img.imgSection2 {
-        padding: 50px 0;
-    }
-    /*texto*/
-    p.texto{
-        margin-top: 0!important;
-    }
     /* footer */
     a.linksFooter, p.desarrolladoPor, a.linkPaginaDesarrollador {
         font-size: 1.2rem;
@@ -129,10 +120,7 @@ a.linkPaginaDesarrollador{
     a.linkMenuPrincipal{
         font-size: 1.4rem;
     }
-    /*tamaño imagen*/
-    img.imgSection2 {
-        padding: 100px 0;
-    }
+ 
     /* footer */
     a.linksFooter, p.desarrolladoPor, a.linkPaginaDesarrollador {
         font-size: 1.4rem;
@@ -148,9 +136,5 @@ a.linkPaginaDesarrollador{
     /*titulo principal*/
     h1.tituloPrincipal{
         font-size: 3.2rem;
-    }
-    /*texto*/
-    p.texto{
-        line-height: 1.5;
     }
 }
