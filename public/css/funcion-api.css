@@ -67,6 +67,25 @@ a.linkPaginaDesarrollador{
     color: #EBCA9A!important;
     text-decoration: none!important;   
 }
+/* Titulos de los ENDPOINTS */
+h5.titulosEndPoints {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+/* texto endpoints */
+p.textoEndpoints {
+    font-family: 'Open Sans', sans-serif; 
+}
+/* link endpoint */
+p.linkEndpoint {
+    font-family: 'Roboto', sans-serif;
+    font-weight: italic;
+    font-size: 1.1rem;
+}
+/* area response json */
+pre.responseJson {
+    background-color: azure;
+}
 
 
 /* media querys */

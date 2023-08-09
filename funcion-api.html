@@ -2,167 +2,185 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>¿Cómo funciona la API? - Tlaxcala al descubierto - Una mirada al pasado</title>
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-<!--Google Fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,300&display=swap"
-rel="stylesheet" />
-<!--estilos propios-->
-<link rel="stylesheet" href="public/css/funcion-api.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>¿Cómo funciona la API? - Tlaxcala al descubierto - Una mirada al pasado</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,300&display=swap"
+    rel="stylesheet" />
+  <!--estilos propios-->
+  <link rel="stylesheet" href="public/css/funcion-api.css" />
 </head>
 
 <body>
-	<!-- seccion 1 -->
-	<main class="colorFondoPrincipal contenedorSeccion">
-		<!-- container -->
-		<div class="container">
-			<!-- header/menu -->
-			<header>
-				<!-- menu bootstrap -->
-				<nav class="navbar navbar-expand-lg pt-4">
-					<div class="container">
-					<a class="navbar-brand" href="/">Tlaxcala Al Descubierto</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link linkMenuPrincipal" aria-current="page" href="/">Inicio</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link linkMenuPrincipal" href="/nosotros.html">Nosotros</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link linkMenuPrincipal" href="/funcion-api.html">¿Cómo funciona?</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link linkMenuPrincipal" href="#">Señoríos</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link linkMenuPrincipal" href="#">Guerreros</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				</nav>
-			<!-- menu bootstrap -->
-			</header>
+  <!-- seccion 1 -->
+  <main class="colorFondoPrincipal contenedorSeccion">
+    <!-- container -->
+    <div class="container">
+      <!-- header/menu -->
+      <header>
+        <!-- menu bootstrap -->
+        <nav class="navbar navbar-expand-lg pt-4">
+          <div class="container">
+            <a class="navbar-brand" href="/">Tlaxcala Al Descubierto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" aria-current="page" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="/funcion-api.html">¿Cómo funciona?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="#">Señoríos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link linkMenuPrincipal" href="#">Guerreros</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- menu bootstrap -->
+      </header>
 
-			<!---->
-			<div class="contenedorInfoFuncionApi mt-5 pb-5">
-				<p class="texto text-center">Esta es la versión 1.0.0 de esta API.</p>
+      <!---->
+      <div class="contenedorInfoFuncionApi mt-5 pb-5">
+        <p class="texto text-center">Esta es la versión 1.0.0 de esta API.</p>
 
-				<h3 class="subtitulo">Información</h3>
-					<p class="texto">Esta es una API solo de consumo : solo el método HTTP GET está disponible en los recursos. No se requiere autenticación para acceder a esta API, y todos los recursos están completamente abiertos y disponibles.</p>
+        <h3 class="subtitulo">Información</h3>
+        <p class="texto">Esta es una API solo de consumo : solo el método HTTP GET está disponible en los recursos. No
+          se requiere autenticación para acceder a esta API, y todos los recursos están completamente abiertos y
+          disponibles.</p>
 
-				<h3 class="subtitulo">Política de uso justo</h3>
-					<p class="texto">
-					TAD es gratuito y está abierto para su uso. Debido a esto, le pedimos a cada desarrollador que cumpla con nuestra política de uso justo. A las personas que no cumplan con la política de uso justo se les prohibirá permanentemente su dirección IP.
-					</p>
-					<p class="texto">TAD es principalmente una herramienta educativa, y no toleraremos ataques de denegación de servicio (DDoS) que impidan que las personas aprendan.</p>
-				<p class="texto">Normas:</p>
-				<ul class="ulPoliticaUso text-center">
-					<li class="listas">- Almacenar (caché) localmente los recursos(de esta API) siempre que los solicite.</li>
-					<li class="listas">- Ser amable y amistoso con sus compañeros desarrolladores de TAD.</li>
-				</ul>
+        <h3 class="subtitulo">Política de uso justo</h3>
+        <p class="texto">
+          TAD es gratuito y está abierto para su uso. Debido a esto, le pedimos a cada desarrollador que cumpla con
+          nuestra política de uso justo. A las personas que no cumplan con la política de uso justo se les prohibirá
+          permanentemente su dirección IP.
+        </p>
+        <p class="texto">TAD es principalmente una herramienta educativa, y no toleraremos ataques de denegación de
+          servicio (DDoS) que impidan que las personas aprendan.</p>
+        <p class="texto">Normas:</p>
+        <ul class="ulPoliticaUso text-center">
+          <li class="listas">- Almacenar (caché) localmente los recursos(de esta API) siempre que los solicite.</li>
+          <li class="listas">- Ser amable y amistoso con sus compañeros desarrolladores de TAD.</li>
+        </ul>
 
-				<h3 class="subtitulo">¿Dudas?</h3>
-					<p class="texto">
-					¿Tiene preguntas? ¿Ideas? ¿Notas algo mal aquí en la información? Contáctanos por aqui mismo dejandonos un mensaje con el contenido del mensaje.
-					</p>
-			</div>
-		</div>
-		<!-- fin container -->
-	</main>
-	<!-- fin seccion 1 -->
+        <h3 class="subtitulo">¿Dudas?</h3>
+        <p class="texto">
+          ¿Tiene preguntas? ¿Ideas? ¿Notas algo mal aquí en la información? Contáctanos por aqui mismo dejandonos un
+          mensaje con el contenido del mensaje.
+        </p>
+      </div>
+    </div>
+    <!-- fin container -->
+  </main>
+  <!-- fin seccion 1 -->
 
-<!--EndPoints-->
-<section class="endPoints">
-	<!--container-->
-	<div class="container">
-		<!--row-->
-		<div class="row">
-			<div class="col-md-12">
-				<!--Card-->
-				<div class="card">
-					<h5 class="card-header">GET - Obtener historia(s) sobre Tlaxcala.</h5>
-					<div class="card-body">
-						<p class="card-text">Llamar todos los registros de historias que hay sobre Tlaxcala, cabe destacar que el tipo de historia puede ser "RESUMEN" ó "EXTENDIDA".</p>
-						<p class="card-text">Por defecto traera todos los registros, no hay paginación, ya que se considera tener pocos registros de historias.</p>
+  <!--EndPoints-->
+  <section class="endPoints">
+    <!--container-->
+    <div class="container">
+      <!--row-->
+      <div class="row">
+        <div class="col-md-12">
+          <!-- contenedorCardEndpoints -->
+          <div class="contenedorCardEndpoints">
+            <!--Card-->
+            <div class="card mt-5">
+              <h5 class="card-header titulosEndPoints">GET - Obtener historia(s) sobre Tlaxcala.</h5>
+              <div class="card-body">
+                <p class="card-text textoEndpoints">Llamar todos los registros de historias que hay sobre Tlaxcala, cabe destacar que
+                  el tipo de historia puede ser "RESUMEN" ó "EXTENDIDA".</p>
+                <p class="card-text textoEndpoints">Por defecto traera todos los registros, no hay paginación, ya que se considera
+                  tener pocos registros de historias.</p>
 
-						<h5 class="card-title">Endpoint</h5>
-						<p class="card-text"><a class="btn btn-primary">GET</a>  http://localhost:5000/api/historia-tlaxcala</p>
-						
-						<p class="card-text">Response:</p>
-<pre>
-	<code>
-	{
-		"total": 1,
-		"historias": [
-			{
-			"_id": "64c848e313bbef87435e6eb3",
-			"titulo": "Tlaxcala a traves de la historia (Resumen)",
-			"texto": "La historia de Tlaxcala...",
-			"tipo_historia": "RESUMEN",
-			"estado_visible": true
-			}
-		]
-	}
-	</code>
+                <h5 class="card-title">Endpoint</h5>
+                <p class="card-text mt-4 linkEndpoint"><a class="btn btn-success">GET</a> http://localhost:5000/api/historia-tlaxcala
+                </p>
+
+                <p class="card-text">Response:</p>
+                <pre class="responseJson">
+  <code>
+  {
+    "total": 1,
+    "historias": [
+      {
+      "_id": "64c848e313bbef87435e6eb3",
+      "titulo": "Tlaxcala a traves de la historia (Resumen)",
+      "texto": "La historia de Tlaxcala...",
+      "tipo_historia": "RESUMEN",
+      "estado_visible": true
+      }
+    ]
+  }
+  </code>
 </pre>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--Fin EndPoints-->
+              </div>
+              <!--fin card-body -->
+            </div>
+            <!-- fin card -->
+          </div>
+          <!-- fin contenedorCardEndpoints -->
+        </div>
+        <!-- fin col-md-12 -->
+      </div>
+      <!-- fin Row -->
+    </div>
+    <!-- fin Container -->
+  </section>
+  <!--Fin EndPoints-->
 
 
 
 
-<!--Menu footer-->
-<div class="container">
-	<footer class="py-3 my-4">
-		<ul class="nav justify-content-center border-bottom pb-3 mb-3">
-			<li class="nav-item">
-				<a href="#" class="nav-link px-2 text-muted linksFooter">Inicio</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link px-2 text-muted linksFooter">Nosotros</a>
-			</li>
-			<li class="nav-item">
-				<a href="funcion-api.html" class="nav-link px-2 text-muted linksFooter">¿Cómo funciona?</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link px-2 text-muted linksFooter">Señoríos</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link px-2 text-muted linksFooter">Guerreros</a>
-			</li>
-		</ul>
-		<p class="text-center text-muted desarrolladoPor">
-		© 2023 Tlaxcala Al Descubierto -
-		<a class="linkPaginaDesarrollador" href="https://paulpichon.github.io/" target="_blank"
-		rel="noopener noreferrer">pichon.space</a>
-		</p>
-	</footer>
-</div>
-<!--Fin Menu footer-->
+  <!--Menu footer-->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a href="funcion-api.html" class="nav-link px-2 text-muted linksFooter">¿Cómo funciona?</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Señoríos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted linksFooter">Guerreros</a>
+        </li>
+      </ul>
+      <p class="text-center text-muted desarrolladoPor">
+        © 2023 Tlaxcala Al Descubierto -
+        <a class="linkPaginaDesarrollador" href="https://paulpichon.github.io/" target="_blank"
+          rel="noopener noreferrer">pichon.space</a>
+      </p>
+    </footer>
+  </div>
+  <!--Fin Menu footer-->
 
-<!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
