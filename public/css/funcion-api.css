@@ -86,7 +86,14 @@ p.linkEndpoint {
 pre.responseJson {
     background-color: azure;
 }
-
+/* estilos table */
+th.tituloTh {
+    font-family: 'Roboto', sans-serif;
+}
+/* tbody */
+tbody tr td{
+    font-family: 'Open Sans', sans-serif; 
+}
 
 /* media querys */
 /* X-Small devices (portrait phones, less than 576px) */
