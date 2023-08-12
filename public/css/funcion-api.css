@@ -91,7 +91,7 @@ th.tituloTh {
     font-family: 'Roboto', sans-serif;
 }
 /* tbody */
-tbody tr td{
+tbody.tablaDescripcion tr td{
     font-family: 'Open Sans', sans-serif; 
 }
 
