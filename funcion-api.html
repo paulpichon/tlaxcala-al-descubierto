@@ -97,6 +97,7 @@
 		<div class="container">
 			<!--row-->
 			<div class="row">
+				<!-- OBTENER HISTORIAS -->
 				<div class="col-md-12">
 					<!-- contenedorCardEndpoints -->
 					<div class="contenedorCardEndpoints">
@@ -104,9 +105,7 @@
 						<div class="card mt-5">
 							<h5 class="card-header titulosEndPoints">GET - Obtener historia(s) sobre Tlaxcala.</h5>
 							<div class="card-body">
-								<p class="card-text textoEndpoints">Llamar todos los registros de historias que hay sobre Tlaxcala, cabe
-									destacar que
-									el tipo de historia puede ser "RESUMEN" ó "EXTENDIDA".</p>
+								<p class="card-text textoEndpoints">Llamar todos los registros de historias que hay sobre Tlaxcala, cabe destacar que el tipo de historia puede ser "RESUMEN" ó "EXTENDIDA".</p>
 								<p class="card-text textoEndpoints">Por defecto traera todos los registros, no hay paginación, ya que se
 									considera
 									tener pocos registros de historias.</p>
@@ -149,7 +148,7 @@
 										<tr>
 											<td>_id</td>
 											<td>ID de la historia.</td>
-											<td>ObjectId (MongoID)</td>
+											<td>ObjectId</td>
 										</tr>
 										<tr>
 											<td>titulo</td>
@@ -184,6 +183,109 @@
 					<!-- fin contenedorCardEndpoints -->
 				</div>
 				<!-- fin col-md-12 -->
+
+				<!-- Obtener Senorios -->
+				<div class="col-md-12">
+					<!-- contenedorCardEndpoints -->
+					<div class="contenedorCardEndpoints">
+						<!--Card-->
+						<div class="card mt-5">
+							<h5 class="card-header titulosEndPoints">GET - Obtener senorios tlaxcaltecas.</h5>
+							<div class="card-body">
+								<p class="card-text textoEndpoints">Un señorío tlaxcalteca se refiere a una entidad política y territorial en la región que hoy conocemos como Tlaxcala, que existió antes de la llegada de los españoles a América en el siglo XVI, se mostraran los 4 senorios por defecto. Si lo que buscas es un solo senorio podras usar el siguiente ENDPOINT para llamarlos por medio de su ID.</p>
+
+								<h5 class="card-title">Endpoint</h5>
+								<p class="card-text mt-4 linkEndpoint"><a class="btn btn-success">GET</a>
+									http://localhost:5000/api/senorios
+								</p>
+
+								<p class="card-text">Response:</p>
+								<pre class="responseJson">
+	<code>
+	{
+		"total": 4,
+		"senorios": [
+			{
+				"_id": "64e803a232a86fa0bff63f17",
+				"nombre": "Tepeticpac",
+				"imagen": "https://res.cloudinary.com/dy9prn3ue/image/upload/v1691808118/Tepeticpac_xdmoyx.jpg",
+				"ubicacion": "Se encontraba en la parte norte de lo que hoy es el estado de Tlaxcala, en el centro de México",
+				"historia_antigua": "Según las crónicas históricas...",
+				"participacion_conflictos": "Los tlaxcaltecas, incluyendo el señorío de Tepeticpac...",
+				"alianza_españoles": "La alianza entre los tlaxcaltecas...",
+				"epoca_colonial": "Durante la época colonial en Tepeticpac..."
+			}
+		]
+	}
+	</code>
+</pre>
+							<!-- Descripcion de la API -->
+							<!-- Titulo -->
+							<h5 class="card-header titulosEndPoints">Descripción</h5>
+							<div class="table-responsive tablaDescripcion">
+								<table class="table">
+									<thead>
+										<tr>
+											<th class="tituloTh" scope="col">Nombre</th>
+											<th class="tituloTh" scope="col">Descripción</th>
+											<th class="tituloTh" scope="col">Tipo</th>
+										</tr>
+									</thead>
+									<tbody class="tablaDescripcion">
+										<tr>
+											<td>_id</td>
+											<td>ID del senorio.</td>
+											<td>ObjectId</td>
+										</tr>
+										<tr>
+											<td>nombre</td>
+											<td>Nombre del senorio.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>imagen</td>
+											<td>Jeroglífico del senorio.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>ubicacion</td>
+											<td>Region donde se localizaba el senorio</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>historia_antigua</td>
+											<td>Un poco de historia sobre el senorio.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>participacion_conflictos</td>
+											<td>Resumen de los conflictos en los que participo.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>alianza_españoles</td>
+											<td>Resumen sobre la alianza con los espanoles.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>epoca_colonial</td>
+											<td>El senorio durante la epoca colonial.</td>
+											<td>String</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- Fin Descripcion de la API -->
+
+							</div>
+							<!--fin card-body -->
+						</div>
+						<!-- fin card -->
+					</div>
+					<!-- fin contenedorCardEndpoints -->
+				</div>
+				<!-- fin col-md-12 -->
+
 			</div>
 			<!-- fin Row -->
 		</div>
