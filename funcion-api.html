@@ -400,6 +400,106 @@
 				</div>
 				<!-- fin col-md-12 -->
 
+
+				<!-- Obtener Guerreros -->
+				<div class="col-md-12">
+					<!-- contenedorCardEndpoints -->
+					<div class="contenedorCardEndpoints">
+						<!--Card-->
+						<div class="card mt-5">
+							<h5 class="card-header titulosEndPoints">GET - Obtener guerreros Tlaxcaltecas.</h5>
+							<div class="card-body">
+								<p class="card-text textoEndpoints">Los guerreros tlaxcaltecas jugaron un papel crucial durante la conquista de México por parte de los españoles en el siglo XVI. Los tlaxcaltecas eran un pueblo indígena que habitaba en lo que ahora es el estado de Tlaxcala, en México, y eran conocidos por su valentía y habilidades militares.</p>
+
+								<h5 class="card-title">Endpoint</h5>
+								<p class="card-text mt-4 linkEndpoint"><a class="btn btn-success">GET</a>
+									http://localhost:5000/api/guerreros
+								</p>
+
+								<p class="card-text">Response:</p>
+								<pre class="responseJson">
+	<code>
+	{
+		"guerreros": [
+			{
+				"_id": "65162af2398e7d5213678311",
+				"origen": "Tlahuicole fue un guerrero...",
+				"antecedentes_familiares": "Lamentablemente, los antecedentes...",
+				"participacion_conflictos": "Para el año 1515...",
+				"muerte": "Luego de librar importantes batallas...",
+				"legado": "La historia de Tlahuicole...",
+				"imagen": "https://res.cloudinary.com/dy9prn3ue/image/upload/v1695343143/tlahuicole-estatua_m4ddfc.jpg"
+			},
+
+			.
+			.
+			.
+	}
+	</code>
+</pre>
+							<!-- Descripcion de la API -->
+							<!-- Titulo -->
+							<h5 class="card-header titulosEndPoints">Descripción</h5>
+							<div class="table-responsive tablaDescripcion">
+								<table class="table">
+									<thead>
+										<tr>
+											<th class="tituloTh" scope="col">Nombre</th>
+											<th class="tituloTh" scope="col">Descripción</th>
+											<th class="tituloTh" scope="col">Tipo</th>
+										</tr>
+									</thead>
+									<tbody class="tablaDescripcion">
+										<tr>
+											<td>_id</td>
+											<td>ID del guerrero.</td>
+											<td>ObjectId</td>
+										</tr>
+										<tr>
+											<td>origen</td>
+											<td>Origen.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>antecedentes_familiares</td>
+											<td>Antecedentes familiares.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>participacion_conflictos</td>
+											<td>Participación en conflictos.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>muerte</td>
+											<td>Muerte del guerrero.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>legado</td>
+											<td>Legado.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>imagen</td>
+											<td>Imagen (Representación del guerrero).</td>
+											<td>String</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- Fin Descripcion de la API -->
+
+							</div>
+							<!--fin card-body -->
+						</div>
+						<!-- fin card -->
+					</div>
+					<!-- fin contenedorCardEndpoints -->
+				</div>
+				<!-- fin col-md-12 -->
+
+
 			</div>
 			<!-- fin Row -->
 		</div>
