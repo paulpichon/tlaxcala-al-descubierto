@@ -9,7 +9,7 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 //Todo lo necesario para la aplicacion
 //   '/', --> se va a usar solo si estamos en DESARROLLO, si estamos en produccion podemos comentarla ya que no nos sirve, solo en PRODUCCION la comentamos
 const APP_SHELL = [
-    '/',
+    //'/',
     'index.html',
     'public/css/index.css',
     'public/img/tlaxcallan.png',
