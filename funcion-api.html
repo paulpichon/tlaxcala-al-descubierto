@@ -977,6 +977,124 @@
 				</div>
 				<!-- fin col-md-12 -->
 
+
+				<!-- Obtener Cerveza (por ID) -->
+				<div class="col-md-12">
+					<!-- contenedorCardEndpoints -->
+					<div class="contenedorCardEndpoints">
+						<!--Card-->
+						<div class="card mt-5">
+							<h5 class="card-header titulosEndPoints">GET - Obtener cerveza por ID.</h5>
+							<div class="card-body">
+								<p class="card-text textoEndpoints">
+									Cervezas artesanales que forman parte de la Asociación de Cerveceros Artesanales de Tlaxcala A.C. "ACERTLAX".
+								</p>
+								<p class="card-text textoEndpoints">
+									Se muestran una cerveza filtrada por ID.
+								</p>
+
+								<h5 class="card-title">Endpoint</h5>
+								<p class="card-text mt-4 linkEndpoint"><a class="btn btn-success">GET</a>
+									http://localhost:5000/api/cervezas/{ _id }
+								</p>
+
+								<p class="card-text">Response:</p>
+								<pre class="responseJson">
+	<code>
+		{
+			"_id": "6539e2840bc81ef644f8c402",
+			"marca_cerveza": "Indomable",
+			"procedencia": [
+				"Panotla",
+				"Tlaxcala"
+			],
+			"estado": "Tlaxcala",
+			"correo": "cerveceria.don.feyo@gmail.com",
+			"telefono": "2461266464",
+			"razon_social": "Alfredo Jiménez Cuevas",
+			"disponible": true,
+			"logo": "https://res.cloudinary.com/dy9prn3ue/image/upload/v1697775295/don_feyo_yo6l8k.jpg",
+			"img_cerveza": "No imagen"
+		}
+	</code>
+</pre>
+							<!-- Descripcion de la API -->
+							<!-- Titulo -->
+							<h5 class="card-header titulosEndPoints">Descripción</h5>
+							<div class="table-responsive tablaDescripcion">
+								<table class="table">
+									<thead>
+										<tr>
+											<th class="tituloTh" scope="col">Nombre</th>
+											<th class="tituloTh" scope="col">Descripción</th>
+											<th class="tituloTh" scope="col">Tipo</th>
+										</tr>
+									</thead>
+									<tbody class="tablaDescripcion">
+										<tr>
+											<td>_id</td>
+											<td>ID de la cerveza.</td>
+											<td>ObjectId</td>
+										</tr>
+										<tr>
+											<td>marca_cerveza</td>
+											<td>Nombre de marca de la cerveza.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>procedencia</td>
+											<td>Lugar de procedencia de la marca.</td>
+											<td>Object</td>
+										</tr>
+										<tr>
+											<td>estado</td>
+											<td>Estado de procedencia (Tlaxcala).</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>correo</td>
+											<td>Correo electrónico de contacto.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>telefono</td>
+											<td>Teléfono de contacto.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>razon_social</td>
+											<td>Nombre con que el que esta registrada legalmente.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>disponible</td>
+											<td>Disponibilidad para comprar.</td>
+											<td>Boolean</td>
+										</tr>
+										<tr>
+											<td>logo</td>
+											<td>Logotipo de la marca.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>img_cerveza</td>
+											<td>Imágenes de la cerveza.</td>
+											<td>String</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- Fin Descripcion de la API -->
+
+							</div>
+							<!--fin card-body -->
+						</div>
+						<!-- fin card -->
+					</div>
+					<!-- fin contenedorCardEndpoints -->
+				</div>
+				<!-- fin col-md-12 -->
+
 				
 			</div>
 			<!-- fin Row -->
