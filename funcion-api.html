@@ -635,6 +635,7 @@
 			.
 			.
 			.
+		]
 	}
 	</code>
 </pre>
@@ -825,7 +826,7 @@
 					<div class="contenedorCardEndpoints">
 						<!--Card-->
 						<div class="card mt-5">
-							<h5 class="card-header titulosEndPoints">GET - Obtener cervezas por paginación.</h5>
+							<h5 class="card-header titulosEndPoints">GET - Obtener cervezas con paginación.</h5>
 							<div class="card-body">
 								<p class="card-text textoEndpoints">
 									Cervezas artesanales que forman parte de la Asociación de Cerveceros Artesanales de Tlaxcala A.C. "ACERTLAX".
@@ -838,23 +839,64 @@
 								<p class="card-text mt-4 linkEndpoint"><a class="btn btn-success">GET</a>
 									http://localhost:5000/api/cervezas
 								</p>
-								<h5 class="card-title">Endpoint con parametros</h5>
+								<h5 class="card-title">Endpoint con parámetros</h5>
 								<p class="card-text mt-4 linkEndpoint"><a class="btn btn-success">GET</a>
 									http://localhost:5000/api/cervezas?{ limite }&{ desde }
 								</p>
 
+								<!-- Descripcion de los parámetros LIMITE & DESDE -->
+							<!-- Titulo -->
+							<h5 class="card-header titulosEndPoints">Descripción de parámetros</h5>
+							<div class="table-responsive tablaDescripcion">
+								<table class="table">
+									<thead>
+										<tr>
+											<th class="tituloTh" scope="col">Nombre</th>
+											<th class="tituloTh" scope="col">Descripción</th>
+											<th class="tituloTh" scope="col">Tipo</th>
+										</tr>
+									</thead>
+									<tbody class="tablaDescripcion">
+										<tr>
+											<td>limite</td>
+											<td>Número de registros por paginación</td>
+											<td>Number</td>
+										</tr>
+										<tr>
+											<td>desde</td>
+											<td>A partir de donde traera los registros.</td>
+											<td>Number</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- Fin Descripcion de la API -->
+
+							<hr>
 								<p class="card-text">Response:</p>
 								<pre class="responseJson">
 	<code>
 		{
-			"_id": "651e09beb4e7ff703d79c747",
-			"nombre_hacienda": "Hacienda de San Diego Xochuca",
-			"historia": "Una hacienda pulquera ...",
-			"atractivos": "El lugar proporciona hospedaje...",
-			"alojamiento": true,
-			"eventos": true,
-			"restaurante": false,
-			"img": "[\"https://res.cloudinary.com/dy9prn3ue ..."
+			"cervezas": [
+				{
+					"_id": "6539e4b10bc81ef644f8c406",
+					"marca_cerveza": "Mozencahua Brewery",
+					"procedencia": [
+						"Tlaxcala"
+					],
+					"estado": "Tlaxcala",
+					"correo": "mozencahuabrewery@hotmail.com",
+					"telefono": "2461234553",
+					"razon_social": "Ignacio Mozencahua Sánchez",
+					"disponible": true,
+					"logo": "https://res.cloudinary...",
+					"img_cerveza": "No imagen"
+				},
+
+				.
+				.
+				.
+			]
 		}
 	</code>
 </pre>
@@ -873,47 +915,52 @@
 									<tbody class="tablaDescripcion">
 										<tr>
 											<td>_id</td>
-											<td>ID de la hacienda.</td>
+											<td>ID de la cerveza.</td>
 											<td>ObjectId</td>
 										</tr>
 										<tr>
-											<td>nombre_hacienda</td>
-											<td>Nombre.</td>
+											<td>marca_cerveza</td>
+											<td>Nombre de marca de la cerveza.</td>
 											<td>String</td>
 										</tr>
 										<tr>
-											<td>historia</td>
-											<td>Historia de la hacienda.</td>
+											<td>procedencia</td>
+											<td>Lugar de procedencia de la marca.</td>
+											<td>Object</td>
+										</tr>
+										<tr>
+											<td>estado</td>
+											<td>Estado de procedencia (Tlaxcala).</td>
 											<td>String</td>
 										</tr>
 										<tr>
-											<td>ubicacion</td>
-											<td>Ubicacion.</td>
+											<td>correo</td>
+											<td>Correo electrónico de contacto.</td>
 											<td>String</td>
 										</tr>
 										<tr>
-											<td>atractivos</td>
-											<td>Atractivos turisticos.</td>
+											<td>telefono</td>
+											<td>Teléfono de contacto.</td>
 											<td>String</td>
 										</tr>
 										<tr>
-											<td>alojamiento</td>
-											<td>Alojamiento en la hacienda.</td>
+											<td>razon_social</td>
+											<td>Nombre con que el que esta registrada legalmente.</td>
+											<td>String</td>
+										</tr>
+										<tr>
+											<td>disponible</td>
+											<td>Disponibilidad para comprar.</td>
 											<td>Boolean</td>
 										</tr>
 										<tr>
-											<td>eventos</td>
-											<td>Sí se pueden realizar eventos en el lugar.</td>
-											<td>Boolean</td>
+											<td>logo</td>
+											<td>Logotipo de la marca.</td>
+											<td>String</td>
 										</tr>
 										<tr>
-											<td>restaurante</td>
-											<td>Restaurante en el lugar.</td>
-											<td>Boolean</td>
-										</tr>
-										<tr>
-											<td>img</td>
-											<td>Imagenes de la hacienda.</td>
+											<td>img_cerveza</td>
+											<td>Imágenes de la cerveza.</td>
 											<td>String</td>
 										</tr>
 									</tbody>
